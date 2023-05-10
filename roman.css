@@ -1,0 +1,103 @@
+/* {
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Underdog', cursive;
+} */
+
+body{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 48px;
+}
+
+.img-fluid{
+    width: 90px;
+    height: 90px;
+}
+
+.img-2{
+    width: 200px;
+    height: 300px;
+}
+
+.img-croix{
+    width: 60px;
+    height: 60px;
+}
+
+/* .img-illustration{
+    width: 200px;
+    height: 300px;
+} */
+
+h1{
+    font-family: 'Underdog', cursive;
+}
+
+h3{
+    font-family: 'Underdog', cursive;
+}
+
+h4{
+    font-family: 'Underdog', cursive;
+    font-weight: 900;
+}
+
+
+@media only screen and (min-width : 1224px){
+    /* Desktops et laptops: Styles pour cette Media Queries */
+.ch1{
+    margin-top: 100px;
+}
+}
+
+@media only screen and (max-width : 1223px) and (min-width : 997px) {
+.ch1{
+    margin-top: 125px;
+}
+}
+
+@media only screen and (max-width : 996px) and (min-width : 769px) {
+.ch1{
+    margin-top: 200px;
+}
+}
+
+@media only screen and (max-width : 768px) and (min-width : 321px) {
+.ch1{
+    margin-top: 400px;
+}
+}
+
+@media only screen and (max-width : 321px){
+.ch1{
+    margin-top: 400px;
+}
+}
+
+
+/******************************************** FOOTER ********************************/
+
+.copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+
+}
+.copyright {
+    width: 50%;
+    text-align: left;
+    color: #142787;
+}
+.icons {
+    width: 50%;
+    text-align: right;
+}
+.icons a {
+    display: inline-block;
+    padding: 0 35px;
+    font-size: 1.3em;
+    color: #142787;
+}
+.icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
