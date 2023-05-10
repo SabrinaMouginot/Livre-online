@@ -23,10 +23,9 @@ body{
     height: 60px;
 }
 
-/* .img-illustration{
-    width: 200px;
-    height: 300px;
-} */
+.img-illustration{
+    width: 100%;
+}
 
 h1{
     font-family: 'Underdog', cursive;
