@@ -3,12 +3,12 @@
     font-family: 'Underdog', cursive;
 } */
 
-body{
+/* body{
     font-family: 'Averia Serif Libre', cursive;
     font-size: 48px;
-}
+} */
 .ch1{
-    background: url("assets/personnages/brune.png") center;
+    background: url("../assets/personnages/brune.png") center;
     background-size: cover;
     min-height: 600px;
 }
@@ -82,8 +82,7 @@ h4{
     display: block;
 }
 
-.nav li:hover,
-a:hover {
+.nav li:hover {
   background-color: #444444;
 }
 
@@ -117,32 +116,32 @@ a:hover {
 
 @media only screen and (min-width : 1224px){
     /* Desktops et laptops: Styles pour cette Media Queries */
-.ch1{
-    margin-top: 100px;
+.ch1, .ch1bis, .ch2bis, .ch3bis {
+    margin-top: 80px;
 }
 }
 
 @media only screen and (max-width : 1223px) and (min-width : 997px) {
 .ch1{
-    margin-top: 125px;
+    margin-top: 105px;
 }
 }
 
 @media only screen and (max-width : 996px) and (min-width : 769px) {
 .ch1{
-    margin-top: 200px;
+    margin-top: 180px;
 }
 }
 
 @media only screen and (max-width : 768px) and (min-width : 321px) {
 .ch1{
-    margin-top: 380px;
+    margin-top: 360px;
 }
 }
 
 @media only screen and (max-width : 321px){
 .ch1{
-    margin-top: 400px;
+    margin-top: 380px;
 }
 }
 
